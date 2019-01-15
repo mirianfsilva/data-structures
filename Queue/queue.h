@@ -1,11 +1,10 @@
 #include <string>
-// The type of elements contained in the queue is defined by QueueType. The QueueType value must be set at compile time.
 #define QueueType int 
 
+// The type of elements contained in the queue is defined by QueueType. The QueueType value must be set at compile time.
 struct Node;
-
 class queue {
-    public:
+	public:
   	// Create an empty queue in O(1).
 	queue();
  
@@ -37,9 +36,6 @@ class queue {
   	void operator=(queue& q);
  
 	private:
-	// Number of elements in the queue.
 	int size_;
- 
-	// Pointer to the sentinel node of the linked list.
 	Node* end_;
 };
