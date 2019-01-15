@@ -1,6 +1,9 @@
 // Mirian F. Silva - Universidade Federal de Minas Gerais (UFMG)
+
+// The type of elements contained in the queue is defined by QueueType. 
+//The QueueType value must be set at compile time.
+
 #include "queue.h"
-// The type of elements contained in the queue is defined by QueueType. The QueueType value must be set at compile time.
 #define QueueType int 
 
 struct Node {
