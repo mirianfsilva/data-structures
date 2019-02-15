@@ -1,5 +1,5 @@
 # Data Structures
-Data Structures implemented in Python: 
+Data Structures implemented: 
 - Linked List
 - Graphs
 - Stacks
