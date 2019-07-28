@@ -40,7 +40,7 @@ class UnorderedList(object):
 		current = self.head
 
 		while current is not None:
-			if current.value = arg:
+			if current.value == arg:
 				return True
 
 			current = current.next
